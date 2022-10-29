@@ -1,10 +1,12 @@
 import type { ReactElement } from 'react';
 import RootLayout from '../components/RootLayout';
-// import NestedLayout from '../components/nested-layout';
 import type { NextPageWithLayout } from './_app';
-
+import { Chat } from '../components/Chat/Chat';
 const Page: NextPageWithLayout = () => {
-  return <p className="">hello world</p>;
+  return (
+    <>
+      <Chat />
+    </>);
 };
 
 Page.getLayout = function getLayout(page: ReactElement) {

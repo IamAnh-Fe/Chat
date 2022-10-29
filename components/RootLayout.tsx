@@ -7,6 +7,8 @@ const Layout = styled.div`
 `;
 const SSidebar = styled.div`
   width: 33%;
+ 
+
 `;
 const SChildren = styled.div`
   width: 66%;
@@ -21,7 +23,7 @@ const RootLayout = ({ children }: LayoutProps) => (
       {/* <meta charset="UTF-8" /> */}
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>My Next App</title>
+      <title>Chat App</title>
     </Head>
     <header>
       <Navbar />

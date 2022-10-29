@@ -4,6 +4,8 @@ import styled from 'styled-components';
 const NavSibar = styled.div`
   display: flex;
   align-items: center;
+      padding: 0 16px;
+
   justify-content: space-between;
 `;
 const Flex = styled.div`

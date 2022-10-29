@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   padding-top: 12px;
+      padding: 0 16px;
+
   padding-bottom: 24px;
 `;
 const Box = styled.div`
